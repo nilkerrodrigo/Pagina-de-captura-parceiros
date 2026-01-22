@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azul 360 - Plataforma Completa de Crédito</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              azul: {
+                950: '#05060A', // Darkest background
+                900: '#0B0C15', // Card background
+                800: '#151725', // Lighter card
+                500: '#00A3FF', // Primary Blue
+                400: '#00F0FF', // Cyan Accent
+              }
+            },
+            backgroundImage: {
+              'hero-glow': 'radial-gradient(circle at center, rgba(0, 240, 255, 0.15) 0%, rgba(11, 12, 21, 0) 70%)',
+            },
+            animation: {
+              'blob': 'blob 7s infinite',
+              'blob-slow': 'blob 12s infinite',
+              'blob-reverse': 'blob-reverse 15s infinite',
+            },
+            keyframes: {
+              blob: {
+                '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+                '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+                '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              },
+              'blob-reverse': {
+                '0%': { transform: 'translate(0px, 0px) scale(1)' },
+                '33%': { transform: 'translate(-30px, 50px) scale(0.9)' },
+                '66%': { transform: 'translate(20px, -20px) scale(1.1)' },
+                '100%': { transform: 'translate(0px, 0px) scale(1)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #05060A;
+        color: #e2e8f0;
+        overflow-x: hidden;
+      }
+      .scroll-smooth {
+        scroll-behavior: smooth;
+      }
+      .animation-delay-2000 {
+        animation-delay: 2s;
+      }
+      .animation-delay-4000 {
+        animation-delay: 4s;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
