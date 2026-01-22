@@ -51,7 +51,7 @@ const Solutions: React.FC = () => {
             A solução completa para sua operação
           </h2>
           <p className="text-xl text-slate-400 leading-relaxed text-balance">
-            A <span className="text-white font-medium">Azul 360º</span> oferece infraestrutura profissional, expertise especializada e tecnologia integrada para otimizar resultados no mercado&nbsp;de&nbsp;crédito.
+            A <span className="text-white font-medium">Azul 360º Parceiros</span> oferece infraestrutura profissional, expertise especializada e tecnologia integrada para otimizar resultados no mercado&nbsp;de&nbsp;crédito.
           </p>
         </div>
 

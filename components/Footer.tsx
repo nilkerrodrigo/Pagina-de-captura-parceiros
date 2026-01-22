@@ -40,7 +40,7 @@ Ao realizar uma compra, você se compromete a pagar o valor total pelos produtos
 
 7. Propriedade Intelectual
 
-Todos os conteúdos, incluindo textos, imagens, gráficos, logos e software disponíveis em nosso site são de nossa propriedade ou licenciados. Você concorda em não copiar, modificar, distribuir ou de qualquer outra forma infringir nossos direitos de propriedade intelectual.
+Todos os conteúdos, incluindo textos, imagens, graphics, logos e software disponíveis em nosso site são de nossa propriedade ou licenciados. Você concorda em não copiar, modificar, distribuir ou de qualquer outra forma infringir nossos direitos de propriedade intelectual.
 
 8. Limitação de Responsabilidade
 
@@ -113,7 +113,7 @@ Não vendemos, alugamos ou trocamos suas informações pessoais com terceiros pa
 
 5. Cookies e Tecnologias de Rastreamento
 
-Nosso site usa cookies e outras tecnologias de rastreamento para melhorar a navegação e a experiência do usuário. Você pode configurar seu navegador para recusar cookies, mas isso pode afetar sua experiência no site.
+Nosso site usa cookies e outras tecnologias de rastreamento para melhorar na navegação e a experiência do usuário. Você pode configurar seu navegador para recusar cookies, mas isso pode afetar sua experiência no site.
 
 6. Seus Direitos
 
@@ -145,7 +145,7 @@ const Footer: React.FC = () => {
     <>
       <footer className="py-8 bg-black border-t border-white/5 text-center text-slate-600 text-sm">
         <div className="container mx-auto px-4">
-          <p className="mb-2">&copy; {new Date().getFullYear()} Azul 360º. Todos os direitos reservados.</p>
+          <p className="mb-2">&copy; {new Date().getFullYear()} Azul 360º Parceiros. Todos os direitos reservados.</p>
           <div className="flex justify-center gap-4">
               <button 
                 onClick={() => openModal('Termos de Uso', TERMS_OF_USE)}

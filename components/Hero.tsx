@@ -38,7 +38,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
         <div className="mb-12 flex justify-center">
            <img 
              src="http://azul360parceiros.com.br/wp-content/uploads/2026/01/parceiros-scaled.png" 
-             alt="Azul 360º Logo" 
+             alt="Azul 360º Parceiros Logo" 
              className="h-16 md:h-20 w-auto object-contain drop-shadow-[0_0_15px_rgba(0,163,255,0.5)]"
            />
         </div>
