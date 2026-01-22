@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
@@ -11,9 +12,9 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="http://azul360parceiros.com.br/wp-content/uploads/2025/12/italo-e-allan-1-1.png" 
+          src="http://azul360parceiros.com.br/wp-content/uploads/2026/01/ChatGPT-Image-22-de-jan.-de-2026-12_13_44.png" 
           alt="Background" 
-          className="w-full h-full object-cover object-top opacity-60 md:opacity-70"
+          className="w-full h-full object-cover object-center opacity-60 md:opacity-70"
         />
         {/* Lighter Gradient Overlay to show more image */}
         <div className="absolute inset-0 bg-gradient-to-b from-azul-950/80 via-azul-950/30 to-azul-950" />
@@ -37,7 +38,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
         <div className="mb-12 flex justify-center">
            <img 
              src="http://azul360parceiros.com.br/wp-content/uploads/2026/01/parceiros-scaled.png" 
-             alt="Azul 360 Logo" 
+             alt="Azul 360º Logo" 
              className="h-16 md:h-20 w-auto object-contain drop-shadow-[0_0_15px_rgba(0,163,255,0.5)]"
            />
         </div>
@@ -53,18 +54,17 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
             </div>
 
             {/* Headline */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-8 leading-tight tracking-tight drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)]">
-              A plataforma que <br />
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white mb-8 leading-tight tracking-tight drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] text-balance">
+              A plataforma que <br className="hidden md:block" />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-azul-400 to-azul-500 filter drop-shadow-none">
                 profissionaliza
               </span>{' '}
-              sua <br className="hidden md:block" />
-              operação de crédito
+              sua operação&nbsp;de&nbsp;crédito
             </h1>
 
             {/* Description */}
-            <p className="text-white text-lg md:text-2xl max-w-3xl mx-auto mb-10 leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] font-medium">
-              Mesa de crédito especializada, múltiplas instituições financeiras e serviços integrados em uma única plataforma.
+            <p className="text-white text-lg md:text-2xl max-w-3xl mx-auto mb-10 leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)] font-medium text-balance">
+              Mesa de crédito especializada, múltiplas instituições financeiras e serviços integrados em uma única&nbsp;plataforma.
             </p>
 
             {/* CTA */}

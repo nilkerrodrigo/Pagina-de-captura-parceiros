@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Landmark, Activity, Layers, Monitor, GraduationCap, Headphones } from 'lucide-react';
 
@@ -46,11 +47,11 @@ const Solutions: React.FC = () => {
           <span className="text-azul-400 font-semibold tracking-wide uppercase text-sm mb-4 block">
             Introdução
           </span>
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
+          <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 text-balance">
             A solução completa para sua operação
           </h2>
-          <p className="text-xl text-slate-400 leading-relaxed">
-            A <span className="text-white font-medium">Azul 360</span> oferece infraestrutura profissional, expertise especializada e tecnologia integrada para otimizar resultados no mercado de crédito.
+          <p className="text-xl text-slate-400 leading-relaxed text-balance">
+            A <span className="text-white font-medium">Azul 360º</span> oferece infraestrutura profissional, expertise especializada e tecnologia integrada para otimizar resultados no mercado&nbsp;de&nbsp;crédito.
           </p>
         </div>
 
@@ -64,7 +65,7 @@ const Solutions: React.FC = () => {
               <div className="w-14 h-14 rounded-full bg-azul-500/10 flex items-center justify-center mb-6">
                 <solution.icon className="w-7 h-7 text-azul-400" />
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">
+              <h3 className="text-xl font-bold text-white mb-3 text-balance">
                 {solution.title}
               </h3>
               <p className="text-slate-400 text-sm leading-relaxed">

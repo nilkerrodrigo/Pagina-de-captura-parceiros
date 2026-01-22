@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { ArrowRight, Loader2, CheckCircle } from 'lucide-react';
 
@@ -25,7 +26,7 @@ const CaptureForm: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const message = `*Azul 360 Parceiros*
+    const message = `*Azul 360º Parceiros*
 
 *Nome:* ${formData.name}
 *Email:* ${formData.email}
@@ -55,8 +56,8 @@ const CaptureForm: React.FC = () => {
               <CheckCircle className="w-10 h-10 text-green-400" />
             </div>
             <h2 className="text-3xl font-bold text-white mb-4">Solicitação Iniciada!</h2>
-            <p className="text-slate-300 text-lg mb-8">
-              Você será redirecionado para o WhatsApp para finalizar seu atendimento com nossa equipe de especialistas.
+            <p className="text-slate-300 text-lg mb-8 text-balance">
+              Você será redirecionado para o WhatsApp para finalizar seu atendimento com nossa equipe&nbsp;de&nbsp;especialistas.
             </p>
             <button 
               onClick={() => setIsSuccess(false)}
@@ -79,8 +80,8 @@ const CaptureForm: React.FC = () => {
             <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
               Conheça a plataforma
             </h2>
-            <p className="text-lg text-slate-400">
-              Preencha o formulário e nossa equipe entrará em contato
+            <p className="text-lg text-slate-400 text-balance">
+              Preencha o formulário e nossa equipe entrará&nbsp;em&nbsp;contato
             </p>
           </div>
 

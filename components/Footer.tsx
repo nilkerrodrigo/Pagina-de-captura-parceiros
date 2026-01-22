@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
 
@@ -116,7 +117,7 @@ Nosso site usa cookies e outras tecnologias de rastreamento para melhorar a nave
 
 6. Seus Direitos
 
-Você tem o direito de acessar, corrigir ou excluir suas informações pessoais a qualquer momento. Se desejar, você também pode solicitar que deixemos de enviar comunicações de marketing, clicando no link de descadastro nos e-mails que enviamos ou entrando em contato conosco diretamente.
+Você tem o direito de acessar, corrigir ou excluir suas informações pessoais a qualquer momento. Se deseja, você também pode solicitar que deixemos de enviar comunicações de marketing, clicando no link de descadastro nos e-mails que enviamos ou entrando em contato conosco diretamente.
 
 7. Alterações nesta Política
 
@@ -144,7 +145,7 @@ const Footer: React.FC = () => {
     <>
       <footer className="py-8 bg-black border-t border-white/5 text-center text-slate-600 text-sm">
         <div className="container mx-auto px-4">
-          <p className="mb-2">&copy; {new Date().getFullYear()} Azul 360. Todos os direitos reservados.</p>
+          <p className="mb-2">&copy; {new Date().getFullYear()} Azul 360º. Todos os direitos reservados.</p>
           <div className="flex justify-center gap-4">
               <button 
                 onClick={() => openModal('Termos de Uso', TERMS_OF_USE)}
